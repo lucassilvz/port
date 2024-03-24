@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Timmana", sans-serif;
+        font-weight: 450;
+        font-style: normal;
+          
+        
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --dark2: #1b1b1b;
+  --dark3: #ce3737;
+  --dark4: #f500008c;
+
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: var(--dark2);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--dark3);
+}
+::-webkit-scrollbar-thumb:hover{
+  background: var(--dark4);
+}
+ 
+
+.texto{
+        display: flex;
+}
+    
+
+body{
+    background-color: black;
+
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+
+header{
+    padding: 40px 4%;
+
+}
+
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+header a{
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 22px;
+    
+}
+
+
+h2.titulo{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+ font-weight: 800;
+ font-style: normal;
+ margin-top: 80px;
+
+}
+
+
+h2.titulo span{
+  color: rgb(240, 73, 73);
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+ font-weight: 800;
+ font-style: normal;
+
+}
+
+
+header .contato button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 21px;
+    font-weight: 550;
+    background-color: rgb(196, 53, 53);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+ 
+}
+
+
+header a:hover{
+    color: aliceblue;
+    transform: scale(1.10);
+    transition: .5s;
+    text-shadow: 0px 0px 20px white;
+}
+
+
+header .contato button:hover{
+    box-shadow: 0px 0px 20px rgb(160, 47, 47);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: .9s;
+}
+
+
+button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 21px;
+    font-weight: 550;
+    background-color: rgb(196, 53, 53);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    box-shadow: 0px 0px 20px rgb(160, 47, 47);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    transition: .9s;
+    transform: scale(1.1);
+}
+
+
+section.topo-site{
+    padding: 40px 4%;
+
+}
+
+
+
+
+
+.topo-site h1{
+  
+    color: rgb(247, 247, 247);
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 41px;
+    line-height: 40px;
+    margin-top: 150px;
+    
+
+      
+}
+
+
+.txt-topo-site p{
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 25px;
+   margin: 40px 0;
+}
+
+
+.topo-site  .imagem img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top:20px;
+    }
+}
+
+
+.topo-site .txt-topo-site h1 span{
+    color:rgb(211, 76, 76);
+    font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 25px;
+   font-size: 70px;
+}
+
+
+section.especialidades{
+     padding: 40px 4%;
+}
+
+
+.topo-site .especialidades{
+    color: rgb(255, 255, 255);
+    padding: 40px;
+
+}
+
+
+.topo-site .especialidades i{
+    font-size: 100px;
+    color: rgb(211, 76, 76);
+    margin: 0px 00px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    
+}
+
+
+.topo-site .especialidades i:hover{
+    font-size: 100px;
+    color: rgb(233, 40, 40);
+    transition: .3s;
+    margin: 0px 00px;
+}
+
+
+.topo-site .especialidades h3{
+    font-size: 38px;
+    margin: 15px 0;
+    color: rgba(255, 255, 255, 0.39);
+    
+}
+
+
+.topo-site .especialidades h3:hover {
+    font-size: 38px;
+    margin: 15px 0;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    text-shadow: 0px 0px 20px;
+    
+}
+
+
+.topo-site .especialidades p{
+    font-size: 18px;
+    margin: 15px 0;
+    padding-bottom: 80px;
+}
+
+
+.topo-site .especialidades p:hover{
+    font-size: 21px;
+    margin: 15px 0;
+    transition: .7s;
+    padding-bottom: 100px;
+
+}
+
+
+section.sobre{
+  padding: 40px 4%;
+}
+
+
+.sobre .txt-sobre{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+  color: white;
+  
+  
+}
+
+
+.img-sobre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(216, 90, 90, 0.226);
+  padding: 90px 4%;
+}
+
+
+.txt-sobre span{
+color: brown;
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 45px;
+display: block;
+margin-bottom: 30px;
+}
+
+
+.txt-sobre h2{
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: inline-block;
+  line-height: 45px;
+}
+
+
+.botaosocial button{
+  width: 30px;
+  height: 70px;
+  border-radius: 40%;
+  margin: 8px;
+}
+
+
+.botaosocial i{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+.txt-sobre p{
+  margin-bottom: 30px;
+}
+
+
+section.portfolio{
+  display: flex;
+  box-shadow: 0 0 40px rgba(112, 112, 112, 0.116);
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+}
+
+
+section.porfolio .flex{
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+
+.img-port{
+  display: inline-flex;
+  width: 250px;
+  height: 350px;
+  background-color: rgb(175, 64, 64);
+  margin: 50px;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: .60s;
+  cursor:pointer;
+  border-radius: 40px;
+  margin-bottom: 70px;
+  box-shadow: 0 0 20px rgba(99, 99, 99, 0.418);
+}
+
+
+.img-port:hover{
+  background-position: 100% 100%;
+  box-shadow: 0 0 20px rgb(141, 141, 141);
+}
+
+
+section.portfolio .interface h2{
+  font-size: 45px;
+}
+
+
+section.portfolio .interface h2 span {
+  font-size: 45px;
+  
+}
+
+
+footer{
+  display: flex;
+  padding: 20px 4%;
+  box-shadow: 100 0 40px 10px rgba(255, 255, 255, 0.048);
+  margin: 60px 10px 10px 10px;
+}
+
+
+footer .flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+footer .line-footer p i{
+  color: rgb(196, 74, 74);
+  font-size: 25px;
+  padding-bottom: 30px 4%;
+}
+
+
+footer .line-footer p a{
+  color: rgb(126, 126, 126);
+  align-items: center;
+  padding-bottom: 30px 4%;
+}
+
+.line-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1111px){
+  .menu, .contato{
+    display:none
+  }
+  
+*{
+  flex-direction: column;
+}
+
+
+section.topo-site{
+    padding: 1px 10%;
+}
+
+.topo-site h1{
+ 
+  font-weight: 700;
+  margin-top: 80px;
+  font-size: 28px;
+  line-height: 30px; 
+  
+}
+
+.topo-site .imagem img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.logo{
+  margin-bottom: -30%;
+}
+
+.entrecontato{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+section.especialidades{
+  padding: 40px 8%;
+}
+
+section.topo-site .interface .titulo{
+  
+  font-size: 30px;
+}
+
+section.topo-site .interface .titulo span{
+  
+  font-size: 30px;
+}
+
+
+.topo-site .especialidades i{
+  font-size: 80px;
+  color: rgb(211, 76, 76);
+  margin: 0px 00px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.topo-site .especialidades i:hover{
+  font-size: 80px;
+  color: rgb(211, 76, 76);
+  transition: .0s;
+  margin: 0px 00px;
+}
+
+
+.topo-site .especialidades h3{
+  font-size: 30px;
+  margin: 15px 0;
+  color: rgba(255, 255, 255, 0.39);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+
+.topo-site .especialidades h3:hover{
+  font-size: 30px;
+  margin: 15px 0;
+  color: rgb(87, 87, 87);
+  transition: .0s;
+  text-shadow: 0 0 0;
+  
+}
+
+
+.topo-site .especialidades p{
+  font-size: 18px;
+  margin: 10px 0;
+ padding-bottom: 50px;
+  
+}
+
+
+.topo-site .especialidades p:hover{
+  font-size: 18px;
+  margin: 10px 0;
+  transition: .0s;
+  padding-bottom: 50px;
+
+}
+
+section.sobre .interface .img-sobre img{
+  width: 90%;
+  margin-bottom: 60px;
+}
+
+.sobre .txt-sobre{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  
+}
+
+.sobre .txt-sobre h2{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  font-size: 35px;
+  
+}
+
+
+.sobre .txt-sobre h2 span{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  font-size: 35px;
+
+}
+.botaosocial button{
+  
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 40px;
+  border-radius: 10%;
+  margin: 3px;
+}
+
+
+.botaosocial i{
+    display: flex;
+  font-size: 17px;
+ 
+}
+
+
+button{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 21px;
+  font-weight: 550;
+  background-color: rgb(196, 53, 53);
+  border: 0;
+  border-radius: 30px;
+}
+
+
+button:hover{
+  box-shadow: 0px 0px 0px rgb(160, 47, 47);
+  color: rgb(0, 0, 0);
+  border: 0;
+  border-radius: 30px;
+  transition: .0s;
+  transform: scale(1.0);
+
+
+
+}
+
+section.portfolio .interface .titulo{
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: -120px;
+  margin-top: -120px;
+}
+
+
+section.portfolio .interface .titulo span{
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+
+.img-port{
+  display: inline-flex;
+  width: 190px;
+  height: 190px;
+  background-color: rgb(175, 64, 64);
+  margin: 60px;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: .0s;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  margin-left: -50px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.123);
+}
+
+
+.img-port:hover{
+  background-position: 100% 0%;
+  box-shadow: 0 0 0px rgba(99, 99, 99, 0.712);
+}
+
+
+footer{
+  display: flex;
+  padding: -10px 4%;
+  box-shadow: 100 0 40px 10px rgba(255, 255, 255, 0.048);
+  margin: 60px 10px 10px 10px;
+}
+
+}
+
+
